@@ -46,17 +46,29 @@ FastAPI Backend – scalable streaming API for integration with other apps
 # 🏗️ System Architecture
 
 flowchart TD
+
     U[User] -->|Career Question| ST[Streamlit Frontend]
+    
     ST -->|/chat request| API[FastAPI Backend]
+    
     API --> LG[LangGraph Agent]
+    
     LG -->|LLM reasoning| LLM[OpenAI GPT]
+    
     LG -->|Fetch data| Tools[Role/YouTube/GitHub Tools]
+    
     Tools --> LG
+    
     LLM --> LG
+    
     LG --> API
+    
     API -->|Streaming tokens| ST
+    
     ST -->|Optional: Build KG| KG[Knowledge Graph Formatter]
+    
     KG -->|Nodes + Edges JSON| Viz[st-link-analysis Visualization]
+    
     Viz --> U
 
 # ⚙️ Tech Stack
@@ -78,19 +90,33 @@ Other: dotenv, requests, aiohttp
 # 📂 Repository Structure
 
 📦 GradPath-AI
+
  ┣ 📜 app.py                     # Streamlit frontend (chat + KG visualization)
+ 
  ┣ 📜 server.py                  # FastAPI backend (streaming responses)
+ 
  ┣ 📜 gradpath_graph.py          # Main LangGraph orchestration graph
+ 
  ┣ 📜 agent_graph.py             # Alternative agent graph with OpenAI Functions
+ 
  ┣ 📜 tools.py                   # LangChain tools (role info, YouTube, GitHub)
+ 
  ┣ 📜 resource_agent.py          # YouTube & GitHub API calls
+ 
  ┣ 📜 role_agent.py              # Loads role data from JSON
+ 
  ┣ 📜 role_mapping.json          # Curated career paths for multiple roles
+ 
  ┣ 📜 knowledge_graph_formatter.py # Extracts Cytoscape JSON graphs from AI answers
+ 
  ┣ 📜 app_link_analysis.py       # Standalone KG → Link Analysis Streamlit app
+ 
  ┣ 📜 requirements.txt           # Project dependencies
+ 
  ┣ 📜 .env                       # API keys (OpenAI, YouTube, GitHub)
+ 
  ┣ 📜 README.md                  # Documentation (this file)
+ 
  ┗ 📜 LICENSE
 
 # 🔧 Setup Instructions
@@ -116,9 +142,11 @@ YOUTUBE_API_KEY=your_youtube_key
 GITHUB_TOKEN=your_github_token
 
 4️⃣ Run the FastAPI backend
+
 uvicorn server:app --reload --port 8000
 
 5️⃣ Run the Streamlit frontend
+
 streamlit run app.py
 
 ▶️ Usage
