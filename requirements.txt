@@ -1,0 +1,35 @@
+# Core LLM + LangChain dependencies
+openai
+langchain
+langgraph>=0.0.40
+langchain-openai
+python-dotenv
+
+fastapi
+uvicorn
+langgraph
+langchain-core
+langchain-community
+langchain-openai
+python-dotenv
+requests
+
+# Frontend
+streamlit
+
+# API integrations
+requests
+
+# Data models & parsing
+pydantic
+tqdm
+
+# Optional enhancements
+aiohttp          # For async handling
+beautifulsoup4   # For scraping (future)
+
+# Pin version if needed for compatibility (optional)
+# langchain==0.1.16
+# langchain-openai==0.1.6
+
+st-link-analysis

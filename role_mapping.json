@@ -1,0 +1,302 @@
+{
+  "Data Analyst": {
+    "overview": "Analyzes data to find trends and generate actionable insights for businesses.",
+    "skills": {
+      "beginner": [
+        "Excel basics (formulas, pivot tables, charts)",
+        "Introductory SQL queries",
+        "Data Cleaning basics",
+        "Descriptive statistics"
+      ],
+      "intermediate": [
+        "Advanced SQL (joins, subqueries, window functions)",
+        "Power BI dashboards",
+        "Tableau visualizations",
+        "Data storytelling",
+        "Hypothesis testing"
+      ],
+      "advanced": [
+        "Automation with Python (Pandas, NumPy)",
+        "Business KPI development",
+        "A/B testing design and analysis",
+        "Predictive analytics with regression",
+        "Data governance & compliance"
+      ]
+    },
+    "tools": ["Excel", "SQL", "Tableau", "Power BI", "Python (Pandas, NumPy)", "Google Data Studio"],
+    "cloud_devops": [
+      "AWS QuickSight",
+      "Google BigQuery",
+      "Azure Synapse",
+      "ETL tools (Talend, Informatica)"
+    ],
+    "soft_skills": [
+      "Business communication",
+      "Stakeholder management",
+      "Report writing",
+      "Critical thinking",
+      "Attention to detail"
+    ],
+    "projects": ["Sales Dashboard", "Customer Segmentation", "Churn Analysis"],
+    "interview_topics": ["SQL Joins", "Pivot Tables", "A/B Testing", "Data Cleaning"],
+    "roadmap": {
+      "Week 1-2": ["Excel basics", "Intro to SQL", "Understanding KPIs"],
+      "Week 3-4": ["Intermediate SQL", "Data Visualization with Tableau"],
+      "Week 5-6": ["Power BI dashboards", "Basic statistics", "Hypothesis testing"],
+      "Week 7-8": ["Python for data cleaning", "EDA in Pandas"],
+      "Week 9-10": ["Predictive analytics basics", "Storytelling with data"],
+      "Week 11-12": ["Capstone: Sales Dashboard", "Mock interviews"]
+    }
+  },
+
+  "Data Scientist": {
+    "overview": "Builds statistical and machine learning models to derive insights and predictions from data.",
+    "skills": {
+      "beginner": [
+        "Python programming",
+        "Pandas & NumPy",
+        "SQL basics",
+        "Exploratory Data Analysis (EDA)"
+      ],
+      "intermediate": [
+        "Statistics & Probability",
+        "Regression models",
+        "Classification algorithms",
+        "Model evaluation metrics",
+        "Feature engineering"
+      ],
+      "advanced": [
+        "Unsupervised learning (clustering, PCA)",
+        "Deep Learning basics (CNNs, RNNs)",
+        "Bayesian modeling",
+        "Big Data with PySpark",
+        "MLOps practices"
+      ]
+    },
+    "tools": ["Python", "Jupyter", "Scikit-learn", "TensorFlow", "PyTorch", "Tableau"],
+    "cloud_devops": ["AWS Sagemaker", "GCP Vertex AI", "Azure ML Studio", "Databricks"],
+    "soft_skills": [
+      "Research mindset",
+      "Storytelling with data",
+      "Cross-functional collaboration",
+      "Experiment design",
+      "Problem framing"
+    ],
+    "projects": ["Fraud Detection", "Customer Churn Prediction", "Loan Default Prediction"],
+    "interview_topics": ["Linear Regression", "Classification", "Overfitting", "Bias-Variance Tradeoff"],
+    "roadmap": {
+      "Week 1-2": ["Python refresher", "Pandas & Numpy", "EDA"],
+      "Week 3-4": ["Statistics & Probability", "Regression Models"],
+      "Week 5-6": ["Classification Algorithms", "Model Tuning"],
+      "Week 7-8": ["Clustering & PCA", "Unsupervised learning"],
+      "Week 9-10": ["Deep Learning basics", "Neural networks"],
+      "Week 11-12": ["Capstone: Churn Prediction", "Mock Interviews"]
+    }
+  },
+
+  "Data Engineer": {
+    "overview": "Designs and maintains scalable data pipelines and infrastructure.",
+    "skills": {
+      "beginner": [
+        "SQL fundamentals",
+        "ETL basics",
+        "Data modeling concepts"
+      ],
+      "intermediate": [
+        "ETL pipelines with Python",
+        "Apache Spark (batch & streaming)",
+        "Airflow workflows",
+        "Partitioning and indexing"
+      ],
+      "advanced": [
+        "Real-time data streaming (Kafka)",
+        "Cloud data lakes & warehouses",
+        "Data pipeline optimization",
+        "Data governance & security"
+      ]
+    },
+    "tools": ["Apache Spark", "Kafka", "Airflow", "AWS S3", "PostgreSQL", "dbt"],
+    "cloud_devops": ["AWS Glue", "Azure Data Factory", "GCP Dataflow", "Terraform"],
+    "soft_skills": [
+      "System design thinking",
+      "Collaboration with analysts/scientists",
+      "Documentation",
+      "Problem-solving under constraints"
+    ],
+    "projects": ["ETL pipeline for eCommerce", "Real-time data stream with Kafka", "Data Warehouse design"],
+    "interview_topics": ["ETL", "Data Lakes vs Warehouses", "Partitioning", "Scheduling"],
+    "roadmap": {
+      "Week 1-2": ["Data Warehousing Concepts", "Intro to SQL"],
+      "Week 3-4": ["ETL with Python", "Airflow Basics"],
+      "Week 5-6": ["Spark Streaming", "Kafka Fundamentals"],
+      "Week 7-8": ["Cloud Data Engineering", "Data Lake setup"],
+      "Week 9-10": ["Pipeline optimization", "Security & Governance"],
+      "Week 11-12": ["Capstone: Streaming Pipeline", "Mock interviews"]
+    }
+  },
+
+  "Gen AI Engineer": {
+    "overview": "Builds applications using generative AI models, prompts, RAG, and orchestration frameworks.",
+    "skills": {
+      "beginner": [
+        "Python basics",
+        "Prompt engineering fundamentals",
+        "APIs (OpenAI, HuggingFace)",
+        "Streamlit/Gradio for UI"
+      ],
+      "intermediate": [
+        "LangChain (chains, agents, memory)",
+        "Vector databases (Pinecone, FAISS, Milvus)",
+        "RAG pipelines",
+        "Embeddings and semantic search",
+        "FastAPI for backend services"
+      ],
+      "advanced": [
+        "Fine-tuning LLMs (LoRA, PEFT)",
+        "Multi-agent orchestration",
+        "Knowledge graphs (Neo4j, GraphRAG)",
+        "Async apps for scale",
+        "Latency/cost optimization"
+      ]
+    },
+    "tools": ["OpenAI API", "LangChain", "Streamlit", "Pinecone", "FAISS", "Neo4j", "Docker", "FastAPI"],
+    "cloud_devops": ["AWS Bedrock", "GCP Vertex AI", "Azure OpenAI", "Docker & Kubernetes", "GitHub Actions"],
+    "soft_skills": [
+      "Explaining AI solutions",
+      "Documentation writing",
+      "Business problem scoping",
+      "Rapid prototyping mindset"
+    ],
+    "projects": ["PDF Q&A Bot", "AI Resume Helper", "LLM-based Tutor Bot", "Streaming Stock Agent"],
+    "interview_topics": ["Prompting", "Vector Stores", "LangChain Memory", "Token Limits"],
+    "roadmap": {
+      "Week 1-2": ["Python + APIs", "Prompt engineering basics"],
+      "Week 3-4": ["LangChain basics", "Chains, agents, memory"],
+      "Week 5-6": ["RAG pipelines", "Embeddings & Vector DBs"],
+      "Week 7-8": ["Streaming outputs", "Build Resume Helper bot"],
+      "Week 9-10": ["Fine-tuning models", "Multi-agent orchestration"],
+      "Week 11-12": ["Deploy full app with Docker & Kubernetes", "Capstone project"]
+    }
+  },
+
+  "LLM Engineer": {
+    "overview": "Specializes in training, fine-tuning, and deploying large language models.",
+    "skills": {
+      "beginner": [
+        "Transformers basics",
+        "HuggingFace library",
+        "Python + PyTorch",
+        "Embeddings fundamentals"
+      ],
+      "intermediate": [
+        "RAG (Retrieval-Augmented Generation)",
+        "Fine-tuning with LoRA/PEFT",
+        "Prompt templates",
+        "Model evaluation"
+      ],
+      "advanced": [
+        "Distributed training",
+        "Serving large models at scale",
+        "Optimization for inference",
+        "Custom dataset pipelines"
+      ]
+    },
+    "tools": ["HuggingFace", "PyTorch", "FAISS", "LangChain", "OpenAI"],
+    "cloud_devops": ["AWS Sagemaker", "Azure ML", "GCP Vertex AI", "Kubernetes"],
+    "soft_skills": [
+      "Model documentation",
+      "Experiment tracking",
+      "Research communication"
+    ],
+    "projects": ["Document QA Bot", "Custom LLM Tuner", "Multi-Agent System"],
+    "interview_topics": ["Transformers", "Fine-tuning", "Attention", "Embeddings"],
+    "roadmap": {
+      "Week 1-2": ["HuggingFace Transformers", "BERT/GPT basics"],
+      "Week 3-4": ["Embeddings", "RAG pipelines"],
+      "Week 5-6": ["Fine-tuning with LoRA", "Experiment tracking"],
+      "Week 7-8": ["Distributed training", "Optimization"],
+      "Week 9-10": ["Deployment at scale", "Inference optimization"],
+      "Week 11-12": ["Capstone: Custom LLM Pipeline", "Mock interviews"]
+    }
+  },
+
+  "ML Engineer": {
+    "overview": "Builds and deploys machine learning systems in production.",
+    "skills": {
+      "beginner": [
+        "Python basics",
+        "Machine Learning foundations",
+        "Data preprocessing"
+      ],
+      "intermediate": [
+        "Scikit-learn ML pipelines",
+        "FastAPI APIs for ML models",
+        "Docker basics",
+        "CI/CD pipelines"
+      ],
+      "advanced": [
+        "ML monitoring & logging",
+        "Model drift detection",
+        "Scaling ML services",
+        "MLOps with MLflow/Kubeflow"
+      ]
+    },
+    "tools": ["Scikit-learn", "FastAPI", "Docker", "MLflow", "AWS"],
+    "cloud_devops": ["AWS Sagemaker", "Azure ML", "GCP Vertex AI", "Kubernetes"],
+    "soft_skills": [
+      "Collaboration with DevOps",
+      "System design",
+      "Problem decomposition"
+    ],
+    "projects": ["Credit Scoring System", "ML API for Predictions", "Model Monitoring"],
+    "interview_topics": ["Pipeline Design", "Dockerization", "Batch vs Real-Time", "Drift Detection"],
+    "roadmap": {
+      "Week 1-2": ["ML pipeline design", "Docker basics"],
+      "Week 3-4": ["FastAPI APIs", "Model deployment"],
+      "Week 5-6": ["CI/CD with GitHub Actions", "Monitoring"],
+      "Week 7-8": ["Drift detection", "Logging/alerts"],
+      "Week 9-10": ["MLOps scaling", "Cloud deployment"],
+      "Week 11-12": ["Capstone: ML API project", "Mock interview"]
+    }
+  },
+
+  "NLP Engineer": {
+    "overview": "Builds systems for text-based tasks like summarization, sentiment analysis, and NER.",
+    "skills": {
+      "beginner": [
+        "Text preprocessing (tokenization, stopwords)",
+        "POS tagging basics",
+        "NER fundamentals"
+      ],
+      "intermediate": [
+        "Embeddings (Word2Vec, GloVe, BERT)",
+        "SpaCy pipelines",
+        "Transformers basics",
+        "Sequence classification"
+      ],
+      "advanced": [
+        "Large-scale pretraining",
+        "Fine-tuning Transformers",
+        "Summarization & translation",
+        "Evaluation metrics (BLEU, ROUGE)"
+      ]
+    },
+    "tools": ["SpaCy", "NLTK", "HuggingFace", "BERT", "TensorFlow"],
+    "cloud_devops": ["AWS Comprehend", "Azure Text Analytics", "GCP NLP APIs"],
+    "soft_skills": [
+      "Understanding linguistics",
+      "Explaining NLP to non-experts",
+      "Cross-domain adaptability"
+    ],
+    "projects": ["Sentiment Analyzer", "NER Pipeline", "Text Summarizer"],
+    "interview_topics": ["Tokenization", "Attention", "POS tagging", "Embedding Methods"],
+    "roadmap": {
+      "Week 1-2": ["Text preprocessing", "Tokenization"],
+      "Week 3-4": ["POS tagging", "NER with SpaCy"],
+      "Week 5-6": ["Transformers & BERT", "Embeddings"],
+      "Week 7-8": ["Sequence models", "Summarization"],
+      "Week 9-10": ["Fine-tuning transformers", "Evaluation methods"],
+      "Week 11-12": ["Capstone: Text Classifier", "Mock interviews"]
+    }
+  }
+}
